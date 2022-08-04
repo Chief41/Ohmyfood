@@ -1,0 +1,63 @@
+*
+{
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+@media all and (max-width: 1024px)
+{
+
+    /*header et section*/
+
+    header
+    {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .logoMyFood img
+    {
+        height: 75%;
+        width: 50%;
+        margin-left: 27%;
+    }
+
+    section img 
+    {
+        width: 107%;
+        height: 18rem;
+        margin-top: 10px;
+        
+    }
+
+    /*Les entrées*/
+
+    h2
+    {
+        font-family: shrikhand;
+        font-size: 30px;
+    }
+
+    article p 
+    {
+        font-size: 20px;
+        border-bottom: 3px turquoise solid;
+        display: table;
+        margin-bottom: 5px;
+    }
+
+    article
+    {
+        background-color: #f2f2f2;
+        border-top-left-radius: 40px 40px;
+        border-top-right-radius: 40px 40px;
+        transform: translateY(-80px);
+        margin-top: 10px;
+    }
+
+
+
+}
