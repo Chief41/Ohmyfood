@@ -5,7 +5,6 @@
     margin: 0px;
 }
 
-
 @media all and (max-width: 1024px)
 {
    /*header et titre*/
@@ -36,22 +35,10 @@
     section img
     {
         width: 100%;
+        margin-bottom: -25%
     }
 
     /* La carte des menus*/
-
-    .solidProgress
-    {
-        border-bottom: 2px solid #99e2d0 ;
-        animation: solidbar 1.5s cubic-bezier(0.33, 1, 0.68, 1) forwards;
-    }
-
-    @keyframes solidbar
-    {
-        0%{width: 0%;}
-        100%{width: 10%;}
-    }
-
 
     .absolute
     {
@@ -97,141 +84,39 @@
 
     article p
     {
+        margin-top: 20px;
         margin-left: 5px;
     }
 
-
-    strong
+    .ecart p
     {
-        margin-right: 16px;
+        margin-left: 0px;
+        margin-bottom: -5px;
     }
-
 
     .entreeProposition
     {
         background-color: #ffffff;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        height: 30px;
         width: 88%;
         padding: 1rem;
         margin-top: 15px;
         margin-left: 11px;
-        border-radius: 17px;
+        border-radius: 20px;
         box-shadow: .30rem .30rem 1rem rgba(0,0,0,.1);
-        overflow: hidden;
-        opacity: 0;
-    }
-
-    .entreeProposition:hover
-    {
-        border: solid red 2px;
-        animation: 1s linear;
-    }
-
-    .lesEntrees > .entreeProposition:nth-child(1)
-    {
-        transform: translateY(30px);
-        animation: apparition 0.3s 1.6s ease-out forwards;
-    }
-
-    .lesEntrees > .entreeProposition:nth-child(2)
-    {
-        transform: translateY(30px);
-        animation: apparition 0.6s 1.6s ease-out forwards;
-    }
-
-    .lesEntrees > .entreeProposition:nth-child(3)
-    {
-        transform: translateY(30px);
-        animation: apparition 0.9s 1.6s ease-out forwards;
     }
 
 
-
-
-    aside h4
-    {
-        white-space: nowrap;
-        text-overflow: ellipsis;
-        overflow: hidden;
-    }
-
-    
-    aside p
-    {
-        white-space: nowrap;
-        text-overflow: ellipsis;
-        overflow: hidden;
-    }
-
-    aside
-    {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-
-    
-
-    .entreeProposition:hover i
-    {
-        transform: rotateZ(360deg);
-        transition: transform 600ms;
-        margin-right: 92px;
-        width: 0;
-        display: flex;
-    }
-
-   
-
-    strong
-    {
-        display: flex;
-        flex-direction: row;
-        margin-left: 91%;
-    }
-
-
-    .transformation
-    {
-        background-color: #99e2d0;
-        padding: 1.8rem;
-        margin-right: -115px;
-        border-radius: 0 1rem 1rem 0;
-    }
-
-    .transformation:hover
-
-    {
-        margin-right: 0;
-        transition-duration: 0.5s;
-    }
-
-   
-    .fa-check
-    {
-        
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: white;
-        color: #99e2d0;
-        margin-left: -15px;
-        overflow: hidden;
-        border-radius: 50%;
-        padding: 0.9rem;
-        aspect-ratio: 1;    
-    }
-
-    
     #laCarte
     {
         margin-top: 40px;
     }
 
+    .ecart
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
     
     /*boutton commander*/
     .btnExplorer {
@@ -313,16 +198,5 @@
      {
          margin-left: 7px;
      }
-
-     @keyframes apparition 
-     {
-        100%
-        {
-            opacity: 1;
-            transform: none;
-        }
-     }
-
-    
     
 }
