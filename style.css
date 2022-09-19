@@ -224,12 +224,13 @@
         justify-content: center;
     }
 
+
     .fa-store
     {
         color: #7e7e7e; 
     }
 
-    .fa-store:hover
+    .btnFonction:hover .fa-store
     {
         color: #9052db;
     }
@@ -239,7 +240,7 @@
         color: #7e7e7e;
     }
 
-    .fa-mobile-screen-button:hover
+    .btnFonction:hover .fa-mobile-screen-button
     {
         color: #9052db;
     }
@@ -249,7 +250,7 @@
         color: #7e7e7e; 
     }
 
-    .fa-list:hover
+    .btnFonction:hover .fa-list
     {
         color: #9052db;
     }
