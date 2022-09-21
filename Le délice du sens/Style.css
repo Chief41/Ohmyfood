@@ -84,7 +84,8 @@
 }
 
 
-@media all and (max-width:  799px)
+
+@media all and (max-width: 799px)
 {
    /*header et titre*/
    
@@ -189,7 +190,7 @@
     {
         background-color: #ffffff;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
         height: 30px;
         width: 88%;
@@ -222,7 +223,10 @@
     }
 
 
-
+    aside
+    {
+        width: 100%;
+    }
 
     aside h4
     {
@@ -231,23 +235,40 @@
         overflow: hidden;
     }
 
-    
-    aside p
+    aside p 
     {
         white-space: nowrap;
         text-overflow: ellipsis;
         overflow: hidden;
-        margin-bottom: -18px;
+    }
+
+    .price
+    {
+
+        width: 20%;
+    }
+
+    .entreeProposition aside h4
+    {
+        width: 270px;
+    }
+
+    .entreeProposition aside p
+    {
+        width: 270px;
+        margin-left: 0;
+    }
+
+    .entreeProposition:hover aside h4
+    {
+        width: 180px;
+    }
+
+    .entreeProposition:hover aside p
+    {
+        width: 180px;
     }
     
-
-    aside
-    {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
 
     
 
@@ -259,19 +280,28 @@
         display: flex;
     }
 
-    .entreeProposition:hover .transformation
+    .entreeProposition i
     {
-        transition-duration: 0.6s;
-        margin-right: -1.3rem;
+        width: 0;
+        display: flex;
     }
 
-   
+    .entreeProposition:hover .transformation
+    {
+        transition: all 0.4s ease-in-out;
+        margin-right: -2rem;
+        width: 8%;
+    }
+    
+    .entreeProposition .transformation
+    {
+        transition: all 0.4s ease-in-out;
+    }
 
     strong
     {
         display: flex;
-        flex-direction: row;
-        margin-left: 91%;
+        flex-direction: row; 
     }
 
 
@@ -279,8 +309,9 @@
     {
         background-color: #99e2d0;
         padding: 1.8rem;
-        margin-right: -115px;
+        margin-right: -50%;
         border-radius: 0 1rem 1rem 0;
+        width: 30%;
     }
 
     
@@ -309,6 +340,7 @@
 
     
     /*boutton commander*/
+
     .btnExplorer {
         background:linear-gradient(#9356DC,#FF79DA);
         color: white;
@@ -317,7 +349,7 @@
         font-size: 1.5rem;
         overflow: hidden;
         padding: 1.2rem;
-        width: 237px;
+        width: 238px;
         margin-top: 50px;
         position: relative;
         box-shadow: 4px 4px 2px lightgrey;
@@ -396,12 +428,8 @@
             opacity: 1;
             transform: none;
         }
-     }
-    
+     }      
 }
-
-
-
 
 
 
@@ -441,7 +469,7 @@
     {
         width: 78%;
         margin-left:69px;
-        height: 455px;
+        height: 500px;
         border-radius: 30px 30px 0 0;
         object-fit: cover;
     }
@@ -600,11 +628,9 @@
 
    
 
-    strong
+    .price
     {
-        display: flex;
-        flex-direction: row;
-        margin-left: 91%;
+        width: 20%
     }
 
 

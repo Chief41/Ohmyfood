@@ -5,6 +5,85 @@
     margin: 0px;
 }
 
+.loader
+{
+    background-color: #ffffff;
+    opacity: 0.9;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 3;
+    animation: chargeur 2.5s;
+    animation-fill-mode: forwards;
+    transform-origin: top;
+}
+
+@keyframes chargeur{
+
+    0%
+    {
+        transform: scale(1);
+    }
+
+    100%
+    {
+        transform: scale(0);
+    }
+}
+
+.spinner
+{
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: 16px solid #bdc3c7;
+    width: 120px;
+    height: 120px;
+    border-top-color: #1abc9c;
+    border-bottom-color: #3498db;
+    border-radius: 50%;
+    animation: spinner 4s;
+}
+
+@keyframes spinner
+{
+    0%
+    {
+        transform: rotate(0deg) scale(1);
+        border-top-color: green;
+        border-bottom-color: green;
+    }
+
+    25%
+    {
+        border-top-color: blue;
+        border-bottom-color: blue;
+    }
+
+    50%
+    {
+        transform: rotate(360deg) scale(1.15);
+        border-top-color: #0c3f0f;
+        border-bottom-color: #0c3f0f;
+    }
+
+    75%
+    {
+        border-top-color: blue;
+        border-bottom-color: blue;
+    }
+
+    100%
+    {
+        transform: rotate(720deg) scale(0);
+        border-top-color: green;
+        border-bottom-color: green;
+    }
+}
+
+
 
 @media all and (max-width: 799px)
 {
@@ -177,6 +256,7 @@
     .entreeProposition aside p
     {
         width: 270px;
+        margin-left: 0;
     }
 
     .entreeProposition:hover aside h4
@@ -200,22 +280,29 @@
         display: flex;
     }
 
+    .entreeProposition i
+    {
+        width: 0;
+        display: flex;
+    }
+
     .entreeProposition:hover .transformation
     {
-        transition-duration: 0.6s;
-        margin-right: -1.3rem;
+        transition: all 0.4s ease-in-out;
+        margin-right: -2rem;
         width: 8%;
     }
-    
-    
 
-   
+    .entreeProposition .transformation
+    {
+        transition: all 0.4s ease-in-out;
+    }
+    
 
     strong
     {
         display: flex;
         flex-direction: row;
-        
     }
 
 
@@ -542,11 +629,9 @@
 
    
 
-    strong
+    .price
     {
-        display: flex;
-        flex-direction: row;
-        margin-left: 91%;
+        width: 20%
     }
 
 
