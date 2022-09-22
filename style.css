@@ -212,8 +212,8 @@
     {
         background-color: #9356dc;
         border-radius: 100%;
-        width: 7%;
-        height: 40%;
+        width: 32px;
+        height: 32px;
         font-size: large;
         color: white;
         text-align: center;
@@ -527,8 +527,8 @@
     {
         background-color: #9356dc;
         border-radius: 100%;
-        width: 7%;
-        height: 40%;
+        width: 32px;
+        height: 32px;
         font-size: large;
         color: white;
         text-align: center;
@@ -539,35 +539,7 @@
         justify-content: center;
     }
 
-    .fa-store
-    {
-        color: #7e7e7e; 
-    }
-
-    .fa-store:hover
-    {
-        color: #9052db;
-    }
-
-    .fa-mobile-screen-button
-    {
-        color: #7e7e7e;
-    }
-
-    .fa-mobile-screen-button:hover
-    {
-        color: #9052db;
-    }
-
-    .fa-list
-    {
-        color: #7e7e7e; 
-    }
-
-    .fa-list:hover
-    {
-        color: #9052db;
-    }
+    
 
     h4
     {
@@ -577,6 +549,36 @@
     i
     {
         margin-left: 15px;
+    }
+
+    .fa-store
+    {
+        color: #7e7e7e; 
+    }
+
+    .btnFonction:hover .fa-store
+    {
+        color: #9052db;
+    }
+
+    .fa-mobile-screen-button
+    {
+        color: #7e7e7e;
+    }
+
+    .btnFonction:hover .fa-mobile-screen-button
+    {
+        color: #9052db;
+    }
+
+    .fa-list
+    {
+        color: #7e7e7e; 
+    }
+
+    .btnFonction:hover .fa-list
+    {
+        color: #9052db;
     }
 
     /* Les restaurants*/
@@ -820,6 +822,7 @@
     #fonctionChoice
     {
         display: flex;
+        flex-wrap: wrap;
     }
 
     .btnFonction
@@ -827,7 +830,7 @@
         display: flex;
         align-items: center;
         background-color: #f2f2f2;
-        width: 90%;
+        width: 420px;
         height: 5rem;
         border-radius: 20px;  
         box-shadow: 4px 4px 2px lightgrey;    
@@ -840,8 +843,8 @@
     {
         background-color: #9356dc;
         border-radius: 100%;
-        width: 40px;
-        height: 30px;
+        width: 33px;
+        height: 33px;
         font-size: large;
         color: white;
         text-align: center;
@@ -857,7 +860,7 @@
         color: #7e7e7e; 
     }
 
-    .fa-store:hover
+    .btnFonction:hover .fa-store
     {
         color: #9052db;
     }
@@ -867,7 +870,7 @@
         color: #7e7e7e;
     }
 
-    .fa-mobile-screen-button:hover
+    .btnFonction:hover .fa-mobile-screen-button
     {
         color: #9052db;
     }
@@ -877,11 +880,11 @@
         color: #7e7e7e; 
     }
 
-    .fa-list:hover
+    .btnFonction:hover .fa-list
     {
         color: #9052db;
+   
     }
-
     h4
     {
         margin-left: 30px;

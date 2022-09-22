@@ -108,6 +108,7 @@
     .fa-arrow-left
     {
         font-size: x-large;
+        color: black;
     }
 
     /* La photo de présentation*/
@@ -461,6 +462,7 @@
     .fa-arrow-left
     {
         font-size: x-large;
+        color: black;
     }
 
     /* La photo de présentation*/
@@ -620,13 +622,23 @@
         display: flex;
     }
 
-    .entreeProposition:hover .transformation
+    .entreeProposition i
     {
-        transition-duration: 0.6s;
-        margin-right: -1.3rem;
+        width: 0;
+        display: flex;
     }
 
-   
+    .entreeProposition:hover .transformation
+    {
+        transition: all 0.4s ease-in-out;
+        margin-right: -2rem;
+        width: 8%;
+    }
+
+    .entreeProposition .transformation
+    {
+        transition: all 0.4s ease-in-out;
+    }
 
     .price
     {
