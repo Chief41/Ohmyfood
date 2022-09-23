@@ -592,6 +592,7 @@
         white-space: nowrap;
         text-overflow: ellipsis;
         overflow: hidden;
+        margin-left: 3px;
     }
 
     
@@ -600,7 +601,7 @@
         white-space: nowrap;
         text-overflow: ellipsis;
         overflow: hidden;
-        margin-bottom: -18px;
+        margin-bottom: -6px;
     }
     
 
@@ -640,12 +641,71 @@
         transition: all 0.4s ease-in-out;
     }
 
+    aside h4
+    {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        margin-left: 3px;
+    }
+
+    
+    aside p
+    {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        margin-bottom: -6px;
+    }
+    
+
+    aside
+    {
+        width: 100%;
+    }
+
     .price
     {
         width: 20%
     }
 
+    .entreeProposition aside h4
+    {
+        width: 270px;
+    }
 
+    .entreeProposition aside p
+    {
+        width: 270px;
+        margin-left: 0;
+    }
+
+    .entreeProposition:hover aside h4
+    {
+        width: 180px;
+    }
+
+    .entreeProposition:hover aside p
+    {
+        width: 180px;
+    }
+    
+    .entreeProposition:hover i
+    {
+        transform: rotateZ(360deg);
+        transition: transform 600ms;
+        width: 0;
+        display: flex;
+    }
+
+    .entreeProposition i
+    {
+        width: 0;
+        display: flex;
+    }
+
+
+   
     .transformation
     {
         background-color: #99e2d0;

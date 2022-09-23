@@ -245,7 +245,6 @@
 
     .price
     {
-
         width: 20%;
     }
 
@@ -591,6 +590,7 @@
         white-space: nowrap;
         text-overflow: ellipsis;
         overflow: hidden;
+        margin-left: 3px;
     }
 
     
@@ -599,18 +599,40 @@
         white-space: nowrap;
         text-overflow: ellipsis;
         overflow: hidden;
-        margin-bottom: -18px;
+        margin-bottom: -6px;
     }
     
 
     aside
     {
         width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
     }
 
+    .price
+    {
+        width: 20%;
+    }
+
+    .entreeProposition aside h4
+    {
+        width: 270px;
+    }
+
+    .entreeProposition aside p
+    {
+        width: 270px;
+        margin-left: 0;
+    }
+
+    .entreeProposition:hover aside h4
+    {
+        width: 180px;
+    }
+
+    .entreeProposition:hover aside p
+    {
+        width: 180px;
+    }
     
 
     .entreeProposition:hover i
