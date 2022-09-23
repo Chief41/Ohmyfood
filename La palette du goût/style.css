@@ -566,7 +566,6 @@
         border-radius: 17px;
         box-shadow: .30rem .30rem 1rem rgba(0,0,0,.1);
         overflow: hidden;
-        opacity: 0;
     }
 
     
@@ -680,7 +679,8 @@
     #laCarte
     {
         margin-top: 40px;
-        margin-left: 130px;
+        margin-left: 16%;
+        width: 92%;
     }
 
     
@@ -698,6 +698,7 @@
         margin-top: 50px;
         position: relative;
         box-shadow: 4px 4px 2px lightgrey;
+        margin-left: 18%;
 
     }
 
@@ -710,7 +711,7 @@
     .bouttonExplorer
     {
         display: flex;
-        margin-left: 210px;
+        margin-left: 12%;
     }
 
     span
