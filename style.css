@@ -51,34 +51,34 @@
     0%
     {
         transform: rotate(0deg) scale(1);
-        border-top-color: green;
-        border-bottom-color: green;
+        border-top-color: #FF79DA;
+        border-bottom-color: #99E2D0;
     }
 
     25%
     {
-        border-top-color: blue;
-        border-bottom-color: blue;
+        border-top-color: #99E2D0;
+        border-bottom-color: #9356DC;
     }
 
     50%
     {
         transform: rotate(360deg) scale(1.15);
-        border-top-color: #0c3f0f;
-        border-bottom-color: #0c3f0f;
+        border-top-color: #FF79DA;
+        border-bottom-color: #99E2D0;
     }
 
     75%
     {
-        border-top-color: blue;
-        border-bottom-color: blue;
+        border-top-color: #99E2D0;
+        border-bottom-color: #9356DC
     }
 
     100%
     {
         transform: rotate(720deg) scale(0);
-        border-top-color: green;
-        border-bottom-color: green;
+        border-top-color: #FF79DA;
+        border-bottom-color: #99E2D0;  
     }
 }
 
@@ -167,6 +167,7 @@
 
     .btnExplorer {
         background:linear-gradient(#9356DC,#FF79DA);
+        opacity: 0.9;
         color: white;
         border-radius: 10rem;
         cursor: pointer;
@@ -381,7 +382,6 @@
     {
         text-decoration: none;
         color: #fff;
-
     }
 
     footer p
@@ -798,6 +798,7 @@
 
     .btnExplorer {
         background:linear-gradient(#9356DC,#FF79DA);
+        opacity: 0.9;
         color: white;
         border-radius: 10rem;
         cursor: pointer;
