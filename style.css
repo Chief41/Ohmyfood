@@ -84,8 +84,8 @@
 
 
 
-@media all and (max-width: 533px)
-{
+
+
 
 /*header*/
 
@@ -127,13 +127,14 @@
         margin: 45px 50px 0 30px;
     }
 
-    p{
-        font-size: large;
+    .découverteRestaurant p{
+        font-size: x-large;
     }
 
     .carteNew
     {
         background-color: #99e2d0;
+        font-size: large;
         color: #1a8a68;
         height: 38px;
         width: 22%;
@@ -150,6 +151,7 @@
     .newCarte
     {
         background-color: #99e2d0;
+        font-size: large;
         color: #1a8a68;
         height: 38px;
         width: 22%;
@@ -177,6 +179,8 @@
         margin-top: 25px;
         position: relative;
         box-shadow: 4px 4px 2px lightgrey;
+        width: 75%;
+        margin-left: 7%;
 
     }
 
@@ -322,6 +326,7 @@
     article p
     {
         margin-top: 5px;
+        font-size: large;
     }
 
     .fa-heart
@@ -357,6 +362,9 @@
         font-size: x-large;
     }
 
+    @media all and (max-width: 533px)
+{
+
     ul
     {
         color: white;
@@ -367,6 +375,7 @@
         padding: 1rem;
         list-style: none;
     }
+}
 
     .margePhrases
     {
@@ -393,7 +402,7 @@
     {
         margin-left: 7px;
     }
-}
+
 
 
 /*2ème partie média querie */
@@ -405,309 +414,30 @@
 {
     /*header*/
 
-    header{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-    }
-
-    .logoMyFood img{
-        height: 75%;
-        width: 50%;
-        margin-left: 27%;
-        margin-top: 14px;
-    }
-
-    .city
-    {
-        font-size: larger;
-        margin-top: 5%;
-        width: 93%;
-        text-align: center;
-        background-color: #d5d5d5;
-        padding: 1rem;
-        box-shadow: inset #bdbdbd 3px 3px 5px 5px;
-    }
-
-
-    #cadreColorReservation{
-        text-align: center;
-        background-color: #f6F6F6;
-        padding: 2rem;
-        height: 350px;
-    }
-
-    h2{
-        font-size: x-large;
-        margin: 45px 50px 0 30px;
-    }
-
-    p{
-        font-size: large;
-    }
 
     .carteNew
     {
-        background-color: #99e2d0;
-        color: #1a8a68;
-        height: 38px;
         width: 24%;
-        font-weight: bold;
-        position: absolute;
-        border-radius: 3px;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
         top: 1rem;
-        Right: 2rem;
     }
 
     .newCarte
     {
-        background-color: #99e2d0;
-        color: #1a8a68;
-        height: 38px;
         width: 24%;
-        font-weight: bold;
-        position: absolute;
-        border-radius: 3px;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        top: 2rem;
-        right: 2rem;
     }
 
-
-    .btnExplorer {
-        background:linear-gradient(#9356DC,#FF79DA);
-        color: white;
-        border-radius: 10rem;
-        cursor: pointer;
-        font-size: 1.5rem;
-        overflow: hidden;
-        padding: 1.2rem;
-        margin-top: 25px;
-        position: relative;
-        box-shadow: 4px 4px 2px lightgrey;
-
-    }
-
-    .btnExplorer:hover
-    {
-        box-shadow: 4px 4px 2px rgb(121, 119, 119);
-        transition: 300ms;
-    }
- 
-
-    /* Section */
-
-    #fonctionChoice
-    {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .btnFonction
-    {
-        display: flex;
-        align-items: center;
-        background-color: #f2f2f2;
-        width: 90%;
-        height: 5rem;
-        border-radius: 20px;  
-        box-shadow: 4px 4px 2px lightgrey;    
-        font-size: larger;
-        margin: 15px;
-    }
-
-
-    .btnFonction p
-    {
-        background-color: #9356dc;
-        border-radius: 100%;
-        width: 32px;
-        height: 32px;
-        font-size: large;
-        color: white;
-        text-align: center;
-        position: relative;
-        right: 11px;
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
-    }
-
-    
-
-    h4
-    {
-        margin-left: 30px;
-    }
-
-    i
-    {
-        margin-left: 15px;
-    }
-
-    .fa-store
-    {
-        color: #7e7e7e; 
-    }
-
-    .btnFonction:hover .fa-store
-    {
-        color: #9052db;
-    }
-
-    .fa-mobile-screen-button
-    {
-        color: #7e7e7e;
-    }
-
-    .btnFonction:hover .fa-mobile-screen-button
-    {
-        color: #9052db;
-    }
-
-    .fa-list
-    {
-        color: #7e7e7e; 
-    }
-
-    .btnFonction:hover .fa-list
-    {
-        color: #9052db;
-    }
 
     /* Les restaurants*/
 
     .lesRestaurants
     {
-        background-color: white;
-        border-radius: 1.25rem;
-        box-shadow: 0 0 16px #0000002e;
-        width: 95%;
         height: 20rem;
-        margin-left: 11px;
-        margin-bottom: 20px;
-        position: relative;
     }
-
-    .lesRestaurants a
-    {
-        text-decoration: none;
-        color: black;
-    }
-    
-
 
 
     article img
     {
         height: 15rem;
-        object-fit: cover;
-        width: 100%;
-        border-radius: 1rem 1rem 0 0;
-    }
-
-    article h2
-    {
-        margin-bottom: 20px;
-    }
-
-    #blockRestaurants
-    {
-        display: flex;
-        flex-wrap: wrap;
-        background-color: #f6f6f6;
-    }
-
-    .alignTitle 
-    {
-        height: 14%;
-        padding: 10px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        text-decoration: none;
-    }
-
-    article p
-    {
-        margin-top: 5px;
-    }
-
-    .fa-heart
-    {
-        font-size: 27px;
-        width: 50px;
-    }
-
-    .fa-heart:hover
-    {
-        background: linear-gradient(#9356DC,#FF79DA);
-        font-weight: bold;
-        background-clip: text;
-        -webkit-background-clip: text;
-        transition: 1s;
-        color: transparent;
-    }
-    
-
-    /*Footer*/
-
-    footer 
-    {
-        background-color: #353535;
-    }
-
-    footer h5
-    {
-        font-family: 'Shrikhand', cursive;
-        color: white;
-        margin-left: 10px;
-        padding: 19px;
-        font-size: x-large;
-    }
-
-    ul
-    {
-        color: white;
-        font-size: large;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        padding: 1rem;
-        list-style: none;
-    }
-
-    .margePhrases
-    {
-        margin-left: 15px;
-    }
-
-    li
-    {
-        display: flex;
-    }
-
-    footer a
-    {
-        text-decoration: none;
-        color: #fff;
-
-    }
-
-    footer p
-    {
-        margin-left: 14px;
-    }
-
-    .margeFoot
-    {
-        margin-left: 7px;
     }
 }
 
@@ -721,312 +451,88 @@
 {
      /*header*/
 
-     header{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-    }
-
-    .logoMyFood img{
-        height: 75%;
-        width: 50%;
-        margin-left: 27%;
-        margin-top: 14px;
-    }
-
-    .city
-    {
-        font-size: larger;
-        margin-top: 5%;
-        width: 93%;
-        text-align: center;
-        background-color: #d5d5d5;
-        padding: 1rem;
-        box-shadow: inset #bdbdbd 3px 3px 5px 5px;
-    }
-
-
-    #cadreColorReservation{
-        text-align: center;
-        background-color: #f6F6F6;
-        padding: 2rem;
-        height: 350px;
-    }
-
-    h2{
-        font-size: x-large;
-        margin: 45px 50px 0 30px;
-    }
-
-    p{
-        font-size: large;
-    }
 
     .carteNew
     {
-        background-color: #99e2d0;
-        color: #1a8a68;
-        height: 38px;
         width: 30%;
-        font-weight: bold;
-        position: absolute;
-        border-radius: 3px;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
         top: -1rem;
         Right: 7rem;
     }
 
     .newCarte
     {
-        background-color: #99e2d0;
-        color: #1a8a68;
-        height: 38px;
         width: 30%;
-        font-weight: bold;
-        position: absolute;
-        border-radius: 3px;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
         top: -1rem;
         right: 7rem;
     }
 
 
-    .btnExplorer {
-        background:linear-gradient(#9356DC,#FF79DA);
-        opacity: 0.9;
-        color: white;
-        border-radius: 10rem;
-        cursor: pointer;
-        font-size: 1.5rem;
-        overflow: hidden;
-        padding: 1.2rem;
-        margin-top: 25px;
-        position: relative;
-        box-shadow: 4px 4px 2px lightgrey;
-
-    }
-
-    .btnExplorer:hover
-    {
-        box-shadow: 4px 4px 2px rgb(121, 119, 119);
-        transition: 300ms;
-    }
- 
-
+    
     /* Section */
 
     #fonctionChoice
     {
-        display: flex;
-        flex-wrap: wrap;
         justify-content: center;
     }
 
     .btnFonction
     {
-        display: flex;
-        align-items: center;
-        background-color: #f2f2f2;
         width: 420px;
-        height: 5rem;
-        border-radius: 20px;  
-        box-shadow: 4px 4px 2px lightgrey;    
-        font-size: larger;
-        margin: 15px;
     }
 
 
     .btnFonction p
     {
-        background-color: #9356dc;
-        border-radius: 100%;
         width: 33px;
         height: 33px;
-        font-size: large;
-        color: white;
-        text-align: center;
-        position: relative;
-        right: 11px;
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
     }
 
-    .fa-store
-    {
-        color: #7e7e7e; 
-    }
-
-    .btnFonction:hover .fa-store
-    {
-        color: #9052db;
-    }
-
-    .fa-mobile-screen-button
-    {
-        color: #7e7e7e;
-    }
-
-    .btnFonction:hover .fa-mobile-screen-button
-    {
-        color: #9052db;
-    }
-
-    .fa-list
-    {
-        color: #7e7e7e; 
-    }
-
-    .btnFonction:hover .fa-list
-    {
-        color: #9052db;
    
-    }
-    h4
-    {
-        margin-left: 30px;
-    }
-
-    i
-    {
-        margin-left: 15px;
-    }
 
     /* Les restaurants*/
 
     .lesRestaurants
     {
-        background-color: white;
-        border-radius: 1.25rem;
-        box-shadow: 0 0 16px #0000002e;
         width: 300px;
         height: 20rem;
-        margin-left: 11px;
-        margin-bottom: 20px;
-        position: relative;
     }
 
-    .lesRestaurants a
-    {
-        text-decoration: none;
-        color: black;
-    }
     
-
-
 
     article img
     {
         height: 15rem;
-        object-fit: cover;
-        width: 100%;
-        border-radius: 1rem 1rem 0 0;
-    }
-
-    article h2
-    {
-        margin-bottom: 20px;
     }
 
     #blockRestaurants
     {
-        display: flex;
-        flex-wrap: wrap;
         justify-content: space-around;
-        background-color: #f6f6f6;
     }
 
-    .alignTitle 
-    {
-        height: 14%;
-        padding: 10px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        text-decoration: none;
-    }
 
-    article p
-    {
-        margin-top: 5px;
-    }
-
-    .fa-heart
-    {
-        font-size: 27px;
-        width: 50px;
-    }
-
-    .fa-heart:hover
-    {
-        background: linear-gradient(#9356DC,#FF79DA);
-        font-weight: bold;
-        background-clip: text;
-        -webkit-background-clip: text;
-        transition: 1s;
-        color: transparent;
-    }
     
 
     /*Footer*/
 
-    footer 
-    {
-        background-color: #353535;
-    }
 
-    footer h5
-    {
-        font-family: 'Shrikhand', cursive;
-        color: white;
-        margin-left: 10px;
-        padding: 19px;
-        font-size: x-large;
-    }
 
     ul
     {
-        color: white;
-        font-size: large;
         display: flex;
         justify-content: space-between;
-        padding: 1rem;
-        list-style: none;
         margin-right: 8px;
+        color: white;
+        font-size: large;
+        padding: 1.2rem;
+        list-style: none;
     }
 
-    .margePhrases
-    {
-        margin-left: 15px;
-    }
 
     li
     {
-        display: flex;
         margin-right: 45px;
     }
 
-    footer a
-    {
-        text-decoration: none;
-        color: #fff;
-
-    }
-
-    footer p
-    {
-        margin-left: 14px;
-    }
-
-    .margeFoot
-    {
-        margin-left: 7px;
-    }
 }
 
 
