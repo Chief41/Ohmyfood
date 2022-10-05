@@ -414,16 +414,13 @@
      {
          display: flex;
      }
+
  
      footer p
      {
          margin-left: 14px;
      }
  
-     .margeFoot
-     {
-         margin-left: 7px;
-     }
 
      @keyframes apparition 
      {
