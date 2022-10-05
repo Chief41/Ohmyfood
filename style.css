@@ -362,6 +362,12 @@
         font-size: x-large;
     }
 
+    .fa-utensils
+
+    {
+        margin-right: 9px;
+    }
+
     @media all and (max-width: 533px)
 {
 
